@@ -1,1 +1,5 @@
-# Shape-detection
+SHAPE DETECTION USING COMPUTER VISION
+
+Shape detection is the process of identifying and recognizing geometric shapes or patterns within an image or a scene. In computer vision, shape detection typically involves analyzing digital images to identify and classify objects based on their shapes. This process often includes tasks such as edge detection, contour extraction, and feature extraction to characterize the shapes present in the image. Shape detection algorithms can be used in various applications such as object recognition, image segmentation, robotics, quality control, and medical image analysis.
+
+In this shape detection project using OpenCV's contouring method, the first step is to preprocess the image, typically by converting it to grayscale and applying thresholding to isolate the shapes from the background. Next, contours are extracted from the thresholded image using OpenCV functions. These contours represent the boundaries of shapes present in the image. By analyzing properties like area, perimeter, and number of vertices of each contour, shapes like circles, triangles, rectangles, or more complex polygons can be identified. Finally, the detected shapes are outlined or labeled on the original image for visualization or further analysis.
